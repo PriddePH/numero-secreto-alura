@@ -1,7 +1,6 @@
 let randomNumberArray = [];
 let randomNumberMax = 10;
 let randomNumber = randomNumberGenerator();
-console.log(randomNumber);
 let tries = 1;
 
 showInitialText();
