@@ -1,5 +1,5 @@
 let randomNumberArray = [];
-let randomNumberMax = 10;
+let randomNumberMax = 100;
 let randomNumber = randomNumberGenerator();
 let tries = 1;
 
@@ -8,7 +8,7 @@ showInitialText();
 // mostrando o texto inicial do jogo
 function showInitialText() {
     showText('h1', 'O Jogo do número secreto');
-    showText('p', 'Escolha um número entre 1 e 10');
+    showText('p', 'Escolha um número entre 1 e 100');
 }
 
 // pegando a tag do HTML e passando o texto que vai ser exibido naquela tag
